@@ -48,8 +48,8 @@ Page({
       deviceSecret: wx.getStorageSync("deviceSecret"), //阿里云连接的三元组 ，请自己替代为自己的产品信息!!
       regionId: 'cn-shanghai', //阿里云连接的三元组 ，请自己替代为自己的产品信息!!
       pubTopic: wx.getStorageSync("pubTopic"), //发布消息的主题
-      pubTopic2: '/a1ITu4LFqZf/TEMP2/user/weixinDuan', //自定义的topic（发布消息的主题）
-      subTopic: '/sys/a1ITu4LFqZf/TEMP1/thing/service/property/set', //订阅消息的主题
+      pubTopic2: '/a1ITu4LFqZf/xxxxxxxx/user/weixinDuan', //自定义的topic（发布消息的主题）
+      subTopic: '/sys/a1ITu4LFqZf/xxxxxx/thing/service/property/set', //订阅消息的主题
     },
   },
 
