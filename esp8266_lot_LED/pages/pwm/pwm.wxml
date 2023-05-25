@@ -1,0 +1,70 @@
+
+<image  src="../../images/bg1.jpg"mode="aspectFill"></image>
+<view class = "container">
+<view class = "top">
+
+
+<!-----------------复制这一片--------------->
+<!-- <view class = "light">
+<input class = "myinput" input type = "text" placeholder = "{{a0}}" bindinput = "a0">
+</input>
+<text class = "myText">{{light}}</text>
+</view> -->
+<!-----------------复制这一片--------------->
+
+
+<!-----------------复制这一片--------------->
+<view class = "light">
+<input class = "myinput" input type = "text" placeholder = "{{shidu}}" bincdinput = "a0">
+</input>
+<text class = "myText">{{currentHumidity}}%</text>
+</view>
+<!-----------------复制这一片--------------->
+
+
+<view class = "light">
+<input class = "myinput" type = "text" placeholder = " {{wendu}}" bindinput = "wendu"></input>
+<text class = "myText">{{currentTemperature}}℃</text>
+</view>
+
+</view>
+<view class = "top">
+<!-----------------复制这一片--------------->
+<view class = "light1" >
+<input class = "myinput" input type = "text"   placeholder = "{{shidu1}}" bincdinput = "yali">
+</input>
+<text class = "myText">{{currentHumidity1}}%</text>
+</view>
+<!-----------------复制这一片--------------->
+
+<!-----------------复制这一片--------------->
+<view class = "light1" >
+<input class = "myinput" input type = "text"   placeholder = "{{wendu1}}" bincdinput = "yali">
+</input>
+<text class = "myText">{{currentTemperature1}}℃</text>
+</view>
+<!-----------------复制这一片--------------->
+
+</view>
+
+<view class="button-warn">
+      <button class="open-warn" type="primary" bindtap="onClickOpen">打开</button>
+      <button class="close-warn" type="default" bindtap="onClickOff">关闭</button>
+  </view>
+
+<view class = "pwm">
+ 
+<!-- <view class = "myslider">
+<input class = "myinput2" type = "text" placeholder = "{{pwm}}" bindinput = "pwm"></input>
+<slider bindchange="sliderchange" min="0" max="9"  show-value data-property-name="PWM"/>
+</view> -->
+
+</view>
+<view class = "servo">
+<!-- <view class = "myslider">
+<input class = "myinput2" type = "text" placeholder = "{{servo}}" bindinput = "servo"></input>
+<slider  bindchange="sliderchange" min="0" max="9"show-value, data-property-name="Servo" />
+</view> -->
+</view>
+</view>
+
